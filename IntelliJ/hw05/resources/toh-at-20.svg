@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <svg width="410" height="199">
+            <rect x="190" y="161" width="20" height="11" fill="#715797"/>
+            <rect x="183" y="172" width="32" height="11" fill="#23AD49"/>
+            <rect x="177" y="183" width="45" height="11" fill="#094382"/>
+            <rect x="170" y="194" width="48" height="11" fill="#60C6D0"/>
+            <rect x="164" y="205" width="71" height="11" fill="#8803BB"/>
+            <rect x="157" y="216" width="84" height="11" fill="#35089D"/>
+            <rect x="151" y="227" width="97" height="11" fill="#A5735E"/>
+            <rect x="145" y="238" width="110" height="11" fill="#999cef"/>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+    </body>
+</html>
