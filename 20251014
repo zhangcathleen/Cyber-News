@@ -1,0 +1,8 @@
+On 2025 October 11, researchers at Socket.dev uncovered how threat actors (TAs) have been leveraging Discord as command and control (C2) across popular software registries—i.e., npm, PyPI, and RubyGems.org—to exfiltrate sensitive data to webhooks.
+Discord webhooks are HTTPS endpoints, effectively write-only, and do not expose channel history. Socket stated that they identified packages using webhooks in various ways:
+- A couple of npm packages either siphons developer configuration files to a Discord webhook or likely uses a webhook to log alerts
+- Several PyPI packages uses Discord as a C2 server. An HTTP request is triggered every time the packages are installed.
+- A RubyGems.org package collects and send host information to a hard-coded Discord webhook.
+Discord webhooks in C2 chains allows TAs a lower cost of entry: TAs can avoid hosting and maintaining their own infrastructure, it allows exfiltration even from secure victims because it can blend in with regular code or evade both firewall rules and simple domain/signature blocking.
+https://thehackernews.com/2025/10/npm-pypi-and-rubygems-packages-found.html
+https://socket.dev/blog/weaponizing-discord-for-command-and-control
